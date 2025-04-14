@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #13cccf;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: rgb(208, 9, 9);
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: #e709b7; url('https://placecow.com/800/400') no-repeat center center/cover;
+    color: rgb(207, 213, 14);
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 20px;
+    background: rgb(178, 31, 31);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .gallery {
+    background: #93ab0b;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    background: #160bab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #10e522;
+    margin-top: 20px;
+  }
+  
